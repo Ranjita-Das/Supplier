@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #ffffff;
   width: 100%;
   height: auto;
   padding-top: 30px;
@@ -19,7 +19,7 @@ body {
   height: 100%;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(45, 50, 63, 0.8);
+  background-color: rgba(46, 50, 62, 0.8);
 }
 
 .wrapper {
@@ -36,14 +36,14 @@ a.nav-item.nav-link.register {
   padding-left: 8px;
   border-width: 1px;
   border-style: solid;
-  border-color: white;
+  border-color: #ffffff;
   border-image: initial;
   border-radius: 10px;
 }
 
 hr {
   height: 0.25px;
-  background-color: white;
+  background-color: #ffffff;
   margin: 0px;
 }
 
@@ -62,7 +62,7 @@ hr {
 }
 
 .tagline {
-  color: white;
+  color: #ffffff;
   text-align: left;
   font-size: 2.9rem;
   font-weight: 500;
@@ -70,14 +70,14 @@ hr {
 }
 
 .loginFormArea {
-  background-color: white;
+  background-color: #ffffff;
   height: 450px;
   width: 400px;
   padding-left: 50px;
   padding-right: 50px;
   border-width: 1px;
   border-style: solid;
-  border-color: grey;
+  border-color: #98999B;
   border-image: initial;
   border-radius: 10px;
 }
@@ -95,7 +95,7 @@ input[type="text"] {
   padding: 4px 10px;
   border-width: 1px;
   border-style: solid;
-  border-color: grey;
+  border-color: #98999B;
   border-image: initial;
   border-radius: 10px;
 }
@@ -111,7 +111,7 @@ input[type="password"] {
   padding: 4px 10px;
   border-width: 1px;
   border-style: solid;
-  border-color: grey;
+  border-color: #98999B;
   border-image: initial;
   border-radius: 10px;
 }
@@ -127,7 +127,7 @@ input[type="password"] {
 
 .loginButton {
   width: 100%;
-  color: white;
+  color: #ffffff;
   background-color: #f0ac5b;
   border-radius: 10px;
 }
