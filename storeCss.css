@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-image: url(../../images/OriginalHandshake.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Raleway, sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(45, 50, 63, 0.8);
+}
+
+.wrapper {
+    position: relative;
+}
+
+a.nav-item {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+a.nav-item.nav-link.register {
+    padding-right: 8px;
+    padding-left: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+hr {
+    height: 0.25px;
+    background-color: white;
+    margin: 0px;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.loginCol {
+    /* justify-content: center;
+    align-items: center; */
+    height: 100%;
+    display: flex;
+}
+
+.tagline {
+    color: white;
+    text-align: left;
+    font-size: 2.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.loginFormArea {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+.formHeading {
+    margin-bottom: 35px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 4px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+#password {
+    margin-bottom: 0px;
+}
+
+input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 4px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+.forgotPasswordDiv {
+    margin-bottom: 30px;
+}
+
+.forgotPasswordText {
+    color: black;
+    font-size: 0.75rem;
+}
+
+.loginButton {
+    width: 100%;
+    color: white;
+    background-color: rgb(240, 172, 91);
+    border-radius: 10px;
+}

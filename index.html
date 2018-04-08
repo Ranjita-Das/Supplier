@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>KP</title>
   </head>
 
@@ -15,37 +16,47 @@
   <body>
 
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container wrapper">
 
-          <nav class="navbar justify-content-end nav-fill">
-            <a class="nav-item" href="#">I NEED TO</a>
-            <a class="nav-item" href="#">FEATURES</a>
-            <a class="nav-item" href="#">PRICING</a>
-            <a class="nav-item" href="#">CONTACT</a>
-            <a class="nav-item last" href="#">REGISTER</a>
-          </nav>
-          <hr style="color: white; height: 1px; background-color:white;"/>
+          <nav class="navbar navbar-dark navbar-expand-md">
+              <div class="navbar-brand"><img src="./images/Logo.png" alt="logo" height="60px" width="60px"></div>
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="myTogglerNav">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link" href="#">I NEED TO</a>
+                  <a class="nav-item nav-link" href="#">FEATURES</a>
+                  <a class="nav-item nav-link" href="#">PRICING</a>
+                  <a class="nav-item nav-link" href="#">CONTACT</a>
+                  <a class="nav-item nav-link register" href="#">REGISTER</a>
+                </div><!--content that will collapse into the hamburger icon-->
+            </nav>
+          </container>
+          <hr/>
       </div>
       <div class="container">
-          <div class="row align-items-center justify-content-center" style="margin-top: 15vh; margin-bottom: 10vh">
-            <div class="col text-center loginCol">
-              <div class="display-4 tagline" style="margin-bottom: 10vh">The Best Investment You Will Make Today.</div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col text-center loginCol" style="justify-content:center; align-items:center">
+              <div class="display-4 tagline">The Best Investment <br/>You'll Make Today.</div>
             </div>
 
             <div class="col loginCol">
-              <div class="loginFormArea mx-auto" style="padding-left:50px; padding-right:50px">
-                <h4 class="text-center" style="margin-bottom:50px; margin-top:40px">Login to your Account</h4>
-                <form>
-                  <div class="justify-content-start"><label for="fname">First Name</label></div>
-                  <input type="text" id="fname" name="fname">
+              <div class="loginFormArea mx-auto">
+                <h4 class="text-center formHeading">Login to your Account</h4>
+                <form method="get" action="./home.html">
+                  <div class="justify-content-start"><label for="email">Email</label></div>
+                  <input type="text" id="email" name="email">
 
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lname">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password">
 
-                  <div class="text-center"><button type="submit" class="btn btn-warning" style="padding-left:40px; padding-right:40px">Login</button></div>
+                  <div class="forgotPasswordDiv"><a href="#" class="forgotPasswordText">Forgot Password?</a></div>
+
+                  <div class="text-center"><button type="submit" class="loginButton btn">Login</button></div>
                 </form>
-
-
               </div>
             </div>
           </div>
