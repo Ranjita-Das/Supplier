@@ -1,0 +1,11 @@
+@mixin loginInputField() {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 4px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $grey;
+  border-image: initial;
+  border-radius: 10px;
+}
