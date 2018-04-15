@@ -15,36 +15,41 @@
 
   <body>
 
-      <nav class="navbar navbar-dark navbar-expand-sm">
+      <nav class="navbar navbar-dark navbar-expand-md">
         <div class="container">
           <div class="navbar-brand"><a href="../index.html"><img src="../images/Logo.png" alt="logo" height="60px" width="60px"></a></div>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="./home.html">HOME</a>
-            <a class="nav-item nav-link" href="./supplierInquiry.html">SUPPLIER INQUIRY</a>
 
-            <div class="dropdown">
-              <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="reportDropdown"
-              area-haspopup="true" aria-expanded="false"  href="">REPORT</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myPagesTogglerNav" aria-controls="myPagesTogglerNav" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              <div class="dropdown-menu" aria-labelledby="reportDropdown">
-                <a class="dropdown-item" href="./reportForecast.html">Cash Forecast</a>
-                <a class="dropdown-item" href="./reportInvoice.html">On-Hold Invoice</a>
+          <div class="collapse navbar-collapse" id="myPagesTogglerNav">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="./home.html">HOME</a>
+              <a class="nav-item nav-link" href="./supplierInquiry.html">SUPPLIER INQUIRY</a>
+
+              <div class="dropdown">
+                <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="reportDropdown"
+                area-haspopup="true" aria-expanded="false"  href="">REPORT</a>
+                <div class="dropdown-menu" aria-labelledby="reportDropdown">
+                  <a class="dropdown-item" href="./reportForecast.html">Cash Forecast</a>
+                  <a class="dropdown-item" href="./reportInvoice.html">On-Hold Invoice</a>
+                </div>
               </div>
-            </div>
 
+              <div class="dropdown">
+                <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="administrationDropdown"
+                area-haspopup="true" aria-expanded="false">ADMINISTRATION</a>
 
-            <div class="dropdown">
-              <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="administrationDropdown"
-              area-haspopup="true" aria-expanded="false">ADMINISTRATION</a>
-
-              <div class="dropdown-menu" aria-labelledby="administrationDropdown">
-                <a class="dropdown-item" href="./admnAccount.html">Account Management</a>
-                <a class="dropdown-item" href="./admnPassword.html">Password and Policy Management</a>
-                <a class="dropdown-item" href="./admnLogin.html">Login Functionality</a>
+                <div class="dropdown-menu" aria-labelledby="administrationDropdown">
+                  <a class="dropdown-item" href="./admnAccount.html">Account Management</a>
+                  <a class="dropdown-item" href="./admnPassword.html">Password and Policy Management</a>
+                  <a class="dropdown-item" href="./admnLogin.html">Login Functionality</a>
+                </div>
               </div>
-            </div>
 
-            <a class="nav-item nav-link" href="./help.html">HELP</a>
+              <a class="nav-item nav-link" href="./help.html">HELP</a>
+            </div><!--content that will collapse into the hamburger icon-->
           </div>
         </div>
       </nav>

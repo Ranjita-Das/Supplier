@@ -20,6 +20,10 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
+.nav-item.nav-item {
+  text-align: center;
+}
+
 h2.navbar-text {
   color: #ffffff;
   font-weight: 400;
